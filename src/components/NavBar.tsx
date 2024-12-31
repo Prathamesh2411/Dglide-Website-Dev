@@ -82,7 +82,7 @@ const NavBar: FunctionComponent<NavBarType> = () => {
               Pricing
             </a>
             <a
-              className={`[text-decoration:none] absolute top-[0px] left-[500px] leading-[35px] text-[inherit] inline-block w-[150px] h-3.5 min-w-[100px] cursor-pointer z-[1] ${
+              className={`[text-decoration:none] absolute top-[0px] left-[500px] leading-[35px] text-[inherit] inline-block w-[150px] h-3.5 min-w-[100px] cursor-pointer z-[1] text-nowrap ${
                 isActive("/customer-stories") ? "active-class" : ""
               }`}
               onClick={onCustomerStoriesClick}

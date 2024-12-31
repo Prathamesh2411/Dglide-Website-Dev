@@ -8,7 +8,7 @@ import NavBar from "@/components/NavBar";
 
 const Pricing: FunctionComponent = () => {
   return (
-    <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-start justify-start gap-[50px] leading-[normal] tracking-[normal] mq825:gap-[25px]">
+    <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] flex flex-col items-start justify-start gap-[50px] leading-[normal] tracking-[normal] mq825:gap-[25px]">
       <NavBar />
       <PricingPlansSection />
       <NeedTools />

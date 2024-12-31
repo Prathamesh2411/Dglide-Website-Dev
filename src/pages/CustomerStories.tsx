@@ -10,7 +10,7 @@ import LostStoryContent from "@/components/LostStoryContent";
 
 const CustomerStories: FunctionComponent = () => {
   return (
-    <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-start justify-start gap-[0.1px] leading-[normal] tracking-[normal]">
+    <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] flex flex-col items-start justify-start gap-[0.1px] leading-[normal] tracking-[normal]">
       <section className="self-stretch flex flex-col items-end justify-start gap-[120px] max-w-full mq900:gap-[30px] mq1275:gap-[60px]">
         <NavBar />
         <SuccessStoriesSection />

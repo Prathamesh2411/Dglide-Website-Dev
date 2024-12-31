@@ -18,7 +18,7 @@ const AboutUs: FunctionComponent = () => {
   }, [navigate]);
 
   return (
-    <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-end justify-start leading-[normal] tracking-[normal]">
+    <div className=" relative [background:linear-gradient(#fff,_#fff),_#fff] flex flex-col items-end justify-start leading-[normal] tracking-[normal]">
       <NavBar />
       <AboutUsHero />
       <TeamOverview />

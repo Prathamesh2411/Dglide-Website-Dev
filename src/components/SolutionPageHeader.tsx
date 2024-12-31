@@ -1,10 +1,12 @@
 import { FunctionComponent } from "react";
 
-export type FrameComponent12Type = {
+export type ChallengeSolutionSection2Type = {
   className?: string;
 };
 
-const FrameComponent12: FunctionComponent<FrameComponent12Type> = () => {
+const ChallengeSolutionSection2: FunctionComponent<
+  ChallengeSolutionSection2Type
+> = () => {
   return (
     <section
       className={`w-[1886px]  items-start justify-end py-0 px-20 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro}`}
@@ -59,4 +61,4 @@ const FrameComponent12: FunctionComponent<FrameComponent12Type> = () => {
   );
 };
 
-export default FrameComponent12;
+export default ChallengeSolutionSection2;
