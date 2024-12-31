@@ -29,7 +29,7 @@ export default function LandingPage() {
   return (
     <div className="min-h-screen bg-white">
       <NavBar />
-      <main className="pt-16">
+      <main className="pt-8">
         <HeroSection />
         <SolutionsSection />
 
