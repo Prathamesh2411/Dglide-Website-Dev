@@ -9,13 +9,13 @@ const FrameComponent12: FunctionComponent<FrameComponent12Type> = ({
 }) => {
   return (
     <section
-      className={`w-[1886px] flex flex-row items-start justify-end py-0 px-20 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq1350:pl-10 mq1350:pr-10 mq1350:box-border ${className}`}
+      className={`w-[1886px]  items-start justify-end py-0 px-20 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro ${className}`}
     >
-      <div className="flex-1 flex flex-row items-end justify-between max-w-full gap-5 mq1750:flex-wrap">
+      <div className="flex flex-row items-start justify-between align-top max-w-full gap-5">
         <div className="w-[866px] flex flex-col items-start justify-end pt-0 px-0 pb-[22px] box-border max-w-full">
           <div className="self-stretch flex flex-col items-start justify-start gap-20 max-w-full mq450:gap-5 mq900:gap-10">
             <div className="flex flex-row items-start justify-start py-0 pl-2.5 pr-[9px]">
-              <h1 className="m-0 h-[45px] relative text-inherit tracking-[-0.01em] leading-[45px] capitalize font-semibold font-[inherit] inline-block mq450:text-19xl mq450:leading-[43px] mq900:text-32xl mq900:leading-[58px]">
+              <h1 className="m-0  relative text-inherit tracking-[-0.01em] leading-[45px] capitalize font-semibold font-[inherit] inline-block mq450:text-19xl mq450:leading-[43px] mq900:text-32xl mq900:leading-[58px]">
                 Solutions
               </h1>
             </div>

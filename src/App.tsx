@@ -5,11 +5,26 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
+import { ErrorBoundary } from "react-error-boundary";
 import Home from "./pages/Home";
 import Solutions from "./pages/Solutions";
 import CustomerStories from "./pages/CustomerStories";
 import AboutUs from "./pages/AboutUs";
 import Pricing from "./pages/Pricing";
+
+// Define ErrorFallback component with proper TypeScript interface
+interface ErrorFallbackProps {
+  error: Error;
+}
+
+function ErrorFallback({ error }: ErrorFallbackProps) {
+  return (
+    <div role="alert" className="p-4">
+      <h2 className="text-red-600 text-lg font-bold">Something went wrong:</h2>
+      <pre className="mt-2 text-sm">{error.message}</pre>
+    </div>
+  );
+}
 
 function App() {
   const action = useNavigationType();
@@ -26,26 +41,27 @@ function App() {
     let title = "";
     let metaDescription = "";
 
+    // Updated switch case to include all routes including solutions
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
+        title = "Home | Digital Glide";
+        metaDescription = "Welcome to Digital Glide";
         break;
-      case "/":
-        title = "";
-        metaDescription = "";
+      case "/solutions":
+        title = "Solutions | Digital Glide";
+        metaDescription = "Explore our solutions";
         break;
       case "/customer-stories":
-        title = "";
-        metaDescription = "";
+        title = "Customer Stories | Digital Glide";
+        metaDescription = "Read our customer success stories";
         break;
       case "/about-us":
-        title = "";
-        metaDescription = "";
+        title = "About Us | Digital Glide";
+        metaDescription = "Learn more about Digital Glide";
         break;
       case "/pricing":
-        title = "";
-        metaDescription = "";
+        title = "Pricing | Digital Glide";
+        metaDescription = "View our pricing plans";
         break;
     }
 
@@ -62,21 +78,51 @@ function App() {
       }
     }
   }, [pathname]);
-  const theme = {
-    token: {
-      colorPrimary: "#4096ff",
-      borderRadius: 8,
-      colorBgContainer: "#ffffff",
-    },
-  };
+
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/solutions" element={<Solutions />} />
-      <Route path="/customer-stories" element={<CustomerStories />} />
-      <Route path="/about-us" element={<AboutUs />} />
-      <Route path="/pricing" element={<Pricing />} />
+      <Route
+        path="/"
+        element={
+          <ErrorBoundary FallbackComponent={ErrorFallback}>
+            <Home />
+          </ErrorBoundary>
+        }
+      />
+      <Route
+        path="/solutions"
+        element={
+          <ErrorBoundary FallbackComponent={ErrorFallback}>
+            <Solutions />
+          </ErrorBoundary>
+        }
+      />
+      <Route
+        path="/customer-stories"
+        element={
+          <ErrorBoundary FallbackComponent={ErrorFallback}>
+            <CustomerStories />
+          </ErrorBoundary>
+        }
+      />
+      <Route
+        path="/about-us"
+        element={
+          <ErrorBoundary FallbackComponent={ErrorFallback}>
+            <AboutUs />
+          </ErrorBoundary>
+        }
+      />
+      <Route
+        path="/pricing"
+        element={
+          <ErrorBoundary FallbackComponent={ErrorFallback}>
+            <Pricing />
+          </ErrorBoundary>
+        }
+      />
     </Routes>
   );
 }
+
 export default App;

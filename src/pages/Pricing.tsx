@@ -6,10 +6,12 @@ import FrameComponent15 from "../components/FrameComponent15";
 import FrameComponent16 from "../components/FrameComponent16";
 import FooterForm from "../components/FooterForm";
 import Component2 from "../components/Component2";
+import NavBar from "@/components/Home/NavBar";
 
 const Pricing: FunctionComponent = () => {
   return (
     <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-start justify-start gap-[50px] leading-[normal] tracking-[normal] mq825:gap-[25px]">
+      <NavBar />
       <FrameComponent14 />
       <NeedTools />
       <FrameComponent15 />

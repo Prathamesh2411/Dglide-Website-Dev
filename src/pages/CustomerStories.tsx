@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import FrameComponent18 from "../components/FrameComponent18";
 import FrameComponent19 from "../components/FrameComponent19";
 import FrameComponent17 from "../components/FrameComponent17";
 import FrameComponent20 from "../components/FrameComponent20";
@@ -7,12 +6,13 @@ import LostStoryContent from "../components/LostStoryContent";
 import LoveStoryContent from "../components/LoveStoryContent";
 import GroupComponent2 from "../components/GroupComponent2";
 import Footer1 from "../components/Home/Footer";
+import NavBar from "@/components/Home/NavBar";
 
 const CustomerStories: FunctionComponent = () => {
   return (
     <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-start justify-start gap-[0.1px] leading-[normal] tracking-[normal]">
       <section className="self-stretch flex flex-col items-end justify-start gap-[120px] max-w-full mq900:gap-[30px] mq1275:gap-[60px]">
-        <FrameComponent18 />
+        <NavBar />
         <FrameComponent19 />
       </section>
       <section className="self-stretch h-[120px] relative [backdrop-filter:blur(200px)] bg-gray-800 shrink-0" />

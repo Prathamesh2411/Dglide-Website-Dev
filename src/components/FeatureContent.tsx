@@ -46,7 +46,7 @@ const FeatureContent: FunctionComponent<FeatureContentType> = ({
         <h1 className="m-0 h-[45px] relative text-inherit tracking-[-0.01em] leading-[72px] capitalize font-semibold font-[inherit] inline-block shrink-0 max-w-full z-[1] mq450:text-19xl mq450:leading-[43px] mq900:text-32xl mq900:leading-[58px]">
           Form Builder
         </h1>
-        <div className="self-stretch flex flex-row items-end justify-start gap-[142px] max-w-full text-11xl mq450:gap-[18px] mq900:gap-[35px] mq1350:gap-[71px] mq1750:flex-wrap">
+        <div className="self-stretch flex flex-row items-end justify-start gap-[142px] max-w-full text-11xl mq450:gap-[18px] mq900:gap-[35px] mq1350:gap-[71px]">
           <div className="w-[724px] flex flex-col items-start justify-start gap-[60px] max-w-full mq900:gap-[30px] mq1350:min-w-full mq1750:flex-1">
             <div className="self-stretch flex flex-col items-start justify-start gap-10 mq900:gap-5">
               <h2 className="m-0 self-stretch h-[101px] relative text-inherit leading-[40px] font-semibold font-[inherit] inline-block z-[1] mq450:text-lg mq450:leading-[24px] mq900:text-5xl mq900:leading-[32px]">

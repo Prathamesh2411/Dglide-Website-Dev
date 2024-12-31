@@ -1,5 +1,4 @@
 import { FunctionComponent, useCallback } from "react";
-import FrameComponent6 from "../components/FrameComponent6";
 import FrameComponent7 from "../components/FrameComponent7";
 import FrameComponent8 from "../components/FrameComponent8";
 import FrameComponent9 from "../components/FrameComponent9";
@@ -9,6 +8,7 @@ import Newsletter from "../components/Newsletter";
 import SubscriptionAgreement from "../components/SubscriptionAgreement";
 import Component2 from "../components/Component2";
 import { useNavigate } from "react-router-dom";
+import NavBar from "@/components/Home/NavBar";
 
 const AboutUs: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ const AboutUs: FunctionComponent = () => {
 
   return (
     <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-end justify-start leading-[normal] tracking-[normal]">
-      <FrameComponent6 />
+      <NavBar />
       <FrameComponent7 />
       <FrameComponent8 />
       <FrameComponent9 />
