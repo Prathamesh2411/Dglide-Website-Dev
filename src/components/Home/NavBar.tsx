@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import Component1 from "../Component1";
+import Component1 from "./CustomButton";
 
 export type NavBarType = {
   className?: string;
