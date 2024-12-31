@@ -4,12 +4,10 @@ export type FeatureContentType = {
   className?: string;
 };
 
-const FeatureContent: FunctionComponent<FeatureContentType> = ({
-  className = "",
-}) => {
+const FeatureContent: FunctionComponent<FeatureContentType> = () => {
   return (
     <div
-      className={`self-stretch [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-col items-start justify-start pt-[90px] px-[114px] pb-[309px] box-border gap-[110px] max-w-full text-left text-45xl text-white font-sf-pro mq900:gap-[27px] mq900:pl-7 mq900:pr-7 mq900:box-border mq1350:gap-[55px] mq1350:pl-[57px] mq1350:pr-[57px] mq1350:box-border ${className}`}
+      className={`self-stretch [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-col items-start justify-start pt-[90px] px-[114px] pb-[309px] box-border gap-[110px] max-w-full text-left text-45xl text-white font-sf-pro mq900:gap-[27px] mq900:pl-7 mq900:pr-7 mq900:box-border mq1350:gap-[55px] mq1350:pl-[57px] mq1350:pr-[57px] mq1350:box-border}`}
     >
       <div className="w-[1920px] h-[1126px] relative [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] hidden max-w-full" />
       <header className="w-[1337px] flex flex-row items-start justify-between top-[0] z-[99] sticky gap-5 max-w-full text-left text-xl text-white font-sf-pro mq1350:hidden">

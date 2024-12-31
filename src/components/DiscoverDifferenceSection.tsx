@@ -7,10 +7,10 @@ export type DiscoverDifferenceSectionType = {
 
 const DiscoverDifferenceSection: FunctionComponent<
   DiscoverDifferenceSectionType
-> = ({ className = "" }) => {
+> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[120px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:pb-[51px] mq450:box-border mq1350:pb-[78px] mq1350:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[120px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:pb-[51px] mq450:box-border mq1350:pb-[78px] mq1350:box-border}`}
     >
       <div className="flex flex-row items-start justify-start relative max-w-full">
         <img

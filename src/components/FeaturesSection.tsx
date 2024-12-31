@@ -5,12 +5,10 @@ export type FrameComponent5Type = {
   className?: string;
 };
 
-const FrameComponent5: FunctionComponent<FrameComponent5Type> = ({
-  className = "",
-}) => {
+const FrameComponent5: FunctionComponent<FrameComponent5Type> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[140px] box-border max-w-full text-left text-61xl text-white font-sf-pro mq900:pb-[59px] mq900:box-border mq1350:pb-[91px] mq1350:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[140px] box-border max-w-full text-left text-61xl text-white font-sf-pro mq900:pb-[59px] mq900:box-border mq1350:pb-[91px] mq1350:box-border}`}
     >
       <div className="flex-1 [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-col items-start justify-start pt-[140px] px-[120px] pb-[110px] box-border gap-[137px] max-w-full mq900:gap-[34px] mq900:pt-[59px] mq900:px-[30px] mq900:pb-[46px] mq900:box-border mq1350:gap-[68px] mq1350:pt-[91px] mq1350:px-[60px] mq1350:pb-[71px] mq1350:box-border">
         <div className="w-[1920px] h-[1154px] relative [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] hidden max-w-full" />

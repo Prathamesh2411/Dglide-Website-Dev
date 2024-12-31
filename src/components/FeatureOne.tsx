@@ -31,7 +31,7 @@ const FeatureOne: FunctionComponent<FeatureOneType> = ({
 
   return (
     <div
-      className={`self-stretch flex flex-row items-start justify-end text-center text-11xl text-gray-100 font-sf-pro ${className}`}
+      className={`self-stretch flex flex-row items-start justify-end text-center text-11xl text-gray-100 font-sf-pro}`}
     >
       <div className="flex flex-col items-end justify-start gap-[60px] mq450:gap-[30px]">
         <div className="flex flex-row items-start justify-end py-0 pl-[75px] pr-[74px] mq450:pl-5 mq450:pr-5 mq450:box-border">

@@ -4,12 +4,10 @@ export type ActionButtonsGroupType = {
   className?: string;
 };
 
-const ActionButtonsGroup: FunctionComponent<ActionButtonsGroupType> = ({
-  className = "",
-}) => {
+const ActionButtonsGroup: FunctionComponent<ActionButtonsGroupType> = () => {
   return (
     <div
-      className={`self-stretch flex flex-row items-start justify-center py-0 pl-0.5 pr-0 box-border max-w-full ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center py-0 pl-0.5 pr-0 box-border max-w-full}`}
     >
       <div className="w-[490px] flex flex-row items-start justify-start flex-wrap content-start gap-[20px] max-w-full">
         <button className="cursor-pointer [border:none] py-[16px] px-[20px] bg-dodgerblue-300 flex-1 rounded-61xl flex flex-row items-center justify-center box-border min-w-[146px] z-[1] hover:bg-dodgerblue-100">

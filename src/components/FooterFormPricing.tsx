@@ -4,10 +4,10 @@ export type FooterFormType = {
   className?: string;
 };
 
-const FooterForm: FunctionComponent<FooterFormType> = ({ className = "" }) => {
+const FooterForm: FunctionComponent<FooterFormType> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[150px] box-border max-w-full mq1275:pb-[97px] mq1275:box-border mq825:pb-[63px] mq825:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[150px] box-border max-w-full mq1275:pb-[97px] mq1275:box-border mq825:pb-[63px] mq825:box-border}`}
     >
       <div className="w-[1680px] flex flex-row items-start justify-start relative max-w-full">
         <img

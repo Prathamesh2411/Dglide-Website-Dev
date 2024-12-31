@@ -49,12 +49,10 @@ const solutionsData = [
   },
 ];
 
-const SolutionsSection: FunctionComponent<SolutionsSectionType> = ({
-  className = "",
-}) => {
+const SolutionsSection: FunctionComponent<SolutionsSectionType> = () => {
   return (
     <section
-      className={`self-stretch [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-col items-start justify-start pt-24 pb-32 px-16 box-border gap-16 max-w-full z-[2] text-left text-45xl text-white font-sf-pro mq900:gap-8 mq900:pt-12 mq900:pb-16 mq900:px-8 mq1350:gap-12 mq1350:pt-16 mq1350:pb-20 mq1350:px-12 ${className}`}
+      className={`self-stretch [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-col items-start justify-start pt-24 pb-32 px-16 box-border gap-16 max-w-full z-[2] text-left text-45xl text-white font-sf-pro mq900:gap-8 mq900:pt-12 mq900:pb-16 mq900:px-8 mq1350:gap-12 mq1350:pt-16 mq1350:pb-20 mq1350:px-12}`}
     >
       <div className="self-stretch flex flex-row items-start justify-center max-w-full">
         <div className="w-[1024px] flex flex-col items-start justify-start gap-12 max-w-full mq1350:gap-8">

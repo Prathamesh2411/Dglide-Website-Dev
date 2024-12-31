@@ -45,7 +45,7 @@ const CustomButton: FunctionComponent<CustomButtonType> = ({
 
   return (
     <button
-      className={`cursor-pointer [border:none] py-2.5 px-[30px] bg-white rounded-3xs flex flex-row items-center justify-start z-[6] ${className}`}
+      className={`cursor-pointer [border:none] py-2.5 px-[30px] bg-white rounded-3xs flex flex-row items-center justify-start z-[6]}`}
       data-variant={variant}
       style={CustomButton8Style}
     >

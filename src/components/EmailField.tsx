@@ -4,10 +4,10 @@ export type EmailFieldType = {
   className?: string;
 };
 
-const EmailField: FunctionComponent<EmailFieldType> = ({ className = "" }) => {
+const EmailField: FunctionComponent<EmailFieldType> = () => {
   return (
     <div
-      className={`self-stretch flex flex-col items-start justify-start gap-5 max-w-full text-left text-base text-white font-sf-pro ${className}`}
+      className={`self-stretch flex flex-col items-start justify-start gap-5 max-w-full text-left text-base text-white font-sf-pro}`}
     >
       <div className="self-stretch flex flex-row items-start justify-start relative max-w-full">
         <img

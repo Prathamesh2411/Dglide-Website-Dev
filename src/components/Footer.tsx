@@ -6,10 +6,10 @@ export type FooterType = {
   className?: string;
 };
 
-const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
+const Footer: FunctionComponent<FooterType> = () => {
   return (
     <footer
-      className={`self-stretch bg-gray-200 flex flex-row items-start justify-between py-[120px] pl-[120px] pr-[170px] box-border max-w-full gap-5 text-left text-29xl text-white font-sf-pro mq450:pt-[51px] mq450:pb-[51px] mq450:box-border mq900:py-[78px] mq900:pl-[30px] mq900:pr-[42px] mq900:box-border mq1275:pl-[60px] mq1275:pr-[85px] mq1275:box-border mq1600:flex-wrap ${className}`}
+      className={`self-stretch bg-gray-200 flex flex-row items-start justify-between py-[120px] pl-[120px] pr-[170px] box-border max-w-full gap-5 text-left text-29xl text-white font-sf-pro mq450:pt-[51px] mq450:pb-[51px] mq450:box-border mq900:py-[78px] mq900:pl-[30px] mq900:pr-[42px] mq900:box-border mq1275:pl-[60px] mq1275:pr-[85px] mq1275:box-border mq1600:flex-wrap}`}
     >
       <div className="h-[814px] w-[1920px] relative bg-gray-200 hidden max-w-full" />
       <div className="flex flex-col items-start justify-start gap-[79.5px] min-w-[570px] max-w-full mq450:gap-5 mq900:gap-10 mq1275:min-w-full mq1600:flex-1">

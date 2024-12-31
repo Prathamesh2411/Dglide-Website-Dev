@@ -4,12 +4,12 @@ export type ConsultationCTASectionType = {
   className?: string;
 };
 
-const ConsultationCTASection: FunctionComponent<ConsultationCTASectionType> = ({
-  className = "",
-}) => {
+const ConsultationCTASection: FunctionComponent<
+  ConsultationCTASectionType
+> = () => {
   return (
     <section
-      className={`self-stretch h-[863px] relative bg-white shrink-0 max-w-full z-[3] text-left text-45xl text-gray-100 font-sf-pro mq1275:h-auto mq1275:min-h-[863] ${className}`}
+      className={`self-stretch h-[863px] relative bg-white shrink-0 max-w-full z-[3] text-left text-45xl text-gray-100 font-sf-pro mq1275:h-auto mq1275:min-h-[863]}`}
     >
       <div className="absolute top-[0px] left-[0px] bg-white w-full h-full hidden" />
       <img

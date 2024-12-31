@@ -1,10 +1,8 @@
-import { Button } from "@/components/ui/button";
-
-export default function HeroSection({ className = "" }) {
+export default function HeroSection() {
   return (
     <>
       <div
-        className={`self-stretch flex flex-row items-start justify-between max-w-full gap-5 text-left text-45xl text-gray-100 font-sf-pro mq1750:flex-wrap ${className}`}
+        className={`self-stretch flex flex-row items-start justify-between max-w-full gap-5 text-left text-45xl text-gray-100 font-sf-pro mq1750:flex-wrap}`}
       >
         <div className="[background:linear-gradient(270deg,_rgba(255,_255,_255,_0),_#fff_65.4%)] flex flex-col items-start justify-start pt-24 md:pt-32 px-[114px] pb-[220px] box-border gap-[60px] min-w-[961px] max-w-full z-[2] mq450:gap-[15px] mq450:pt-[85px] mq450:px-5 mq450:pb-[93px] mq450:box-border mq900:gap-[30px] mq900:px-[57px] mq900:pb-[143px] mq900:box-border mq1350:min-w-full mq1750:flex-1">
           <div className="w-[961px] h-[788px] relative [background:linear-gradient(270deg,_rgba(255,_255,_255,_0),_#fff_65.4%)] hidden max-w-full" />

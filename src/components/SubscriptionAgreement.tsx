@@ -4,12 +4,12 @@ export type SubscriptionAgreementType = {
   className?: string;
 };
 
-const SubscriptionAgreement: FunctionComponent<SubscriptionAgreementType> = ({
-  className = "",
-}) => {
+const SubscriptionAgreement: FunctionComponent<
+  SubscriptionAgreementType
+> = () => {
   return (
     <div
-      className={`flex flex-col items-start justify-start gap-[60px] min-w-[640px] max-w-full text-left text-base text-white font-poppins mq900:gap-[30px] mq900:min-w-full mq1750:flex-1 ${className}`}
+      className={`flex flex-col items-start justify-start gap-[60px] min-w-[640px] max-w-full text-left text-base text-white font-poppins mq900:gap-[30px] mq900:min-w-full mq1750:flex-1}`}
     >
       <div className="self-stretch flex flex-col items-start justify-start gap-5">
         <div className="self-stretch flex flex-row items-start justify-start gap-10 mq900:gap-5 mq900:flex-wrap">

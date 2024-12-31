@@ -5,12 +5,10 @@ export type ImpactSectionType = {
   className?: string;
 };
 
-const ImpactSection: FunctionComponent<ImpactSectionType> = ({
-  className = "",
-}) => {
+const ImpactSection: FunctionComponent<ImpactSectionType> = () => {
   return (
     <div
-      className={`self-stretch [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-row items-start justify-start pt-[120px] pb-[171px] pl-[114px] pr-[120px] box-border gap-[108px] max-w-full text-left text-45xl text-white font-sf-pro mq450:pb-[72px] mq450:box-border mq900:gap-[27px] mq900:pl-7 mq900:pr-[30px] mq900:box-border mq1275:gap-[54px] mq1275:pt-[1940px] mq1275:pb-[111px] mq1275:pl-[57px] mq1275:pr-[60px] mq1275:box-border mq1600:flex-wrap ${className}`}
+      className={`self-stretch [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-row items-start justify-start pt-[120px] pb-[171px] pl-[114px] pr-[120px] box-border gap-[108px] max-w-full text-left text-45xl text-white font-sf-pro mq450:pb-[72px] mq450:box-border mq900:gap-[27px] mq900:pl-7 mq900:pr-[30px] mq900:box-border mq1275:gap-[54px] mq1275:pt-[1940px] mq1275:pb-[111px] mq1275:pl-[57px] mq1275:pr-[60px] mq1275:box-border mq1600:flex-wrap}`}
     >
       <div className="h-[928px] w-[1920px] relative [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] hidden max-w-full" />
       <FrameComponent1

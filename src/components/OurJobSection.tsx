@@ -4,12 +4,10 @@ export type OurJobSectionType = {
   className?: string;
 };
 
-const OurJobSection: FunctionComponent<OurJobSectionType> = ({
-  className = "",
-}) => {
+const OurJobSection: FunctionComponent<OurJobSectionType> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[120px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq900:pb-[78px] mq900:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[120px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq900:pb-[78px] mq900:box-border}`}
     >
       <div className="w-full flex flex-col justify-start gap-[100px] max-w-full mq450:gap-[25px] mq900:gap-[50px]">
         <div className="flex flex-row items-center justify-center py-0 px-5 text-center box-border max-w-full">

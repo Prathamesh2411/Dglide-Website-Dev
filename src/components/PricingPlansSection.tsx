@@ -4,12 +4,10 @@ export type PricingPlansSectionType = {
   className?: string;
 };
 
-const PricingPlansSection: FunctionComponent<PricingPlansSectionType> = ({
-  className = "",
-}) => {
+const PricingPlansSection: FunctionComponent<PricingPlansSectionType> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-center pt-0 pb-[90px] pl-16 pr-5 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq1275:pl-8 mq1275:pb-[58px] mq1275:box-border mq825:pb-[38px] mq825:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-center pt-0 pb-[90px] pl-16 pr-5 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq1275:pl-8 mq1275:pb-[58px] mq1275:box-border mq825:pb-[38px] mq825:box-border}`}
     >
       <div className="w-[1716px] flex flex-col items-start justify-start gap-[200px] max-w-full mq450:gap-[25px] mq1275:gap-[100px] mq825:gap-[50px]">
         <div className="self-stretch flex flex-row items-end justify-between max-w-full gap-5 mq1575:flex-wrap">

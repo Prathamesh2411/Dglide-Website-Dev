@@ -4,10 +4,10 @@ export type NeedToolsType = {
   className?: string;
 };
 
-const NeedTools: FunctionComponent<NeedToolsType> = ({ className = "" }) => {
+const NeedTools: FunctionComponent<NeedToolsType> = () => {
   return (
     <section
-      className={`self-stretch bg-aliceblue overflow-hidden shrink-0 flex flex-row items-end justify-start pt-[48.8px] px-[190px] pb-0 box-border gap-[217px] max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:gap-[27px] mq450:pl-5 mq450:pr-5 mq450:box-border mq1275:gap-[108px] mq1275:pl-[95px] mq1275:pr-[95px] mq1275:box-border mq825:gap-[54px] mq825:pl-[47px] mq825:pt-8 mq825:pr-[47px] mq825:box-border mq1575:flex-wrap mq1575:justify-center ${className}`}
+      className={`self-stretch bg-aliceblue overflow-hidden shrink-0 flex flex-row items-end justify-start pt-[48.8px] px-[190px] pb-0 box-border gap-[217px] max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:gap-[27px] mq450:pl-5 mq450:pr-5 mq450:box-border mq1275:gap-[108px] mq1275:pl-[95px] mq1275:pr-[95px] mq1275:box-border mq825:gap-[54px] mq825:pl-[47px] mq825:pt-8 mq825:pr-[47px] mq825:box-border mq1575:flex-wrap mq1575:justify-center}`}
     >
       <img
         className="h-[551.2px] w-[327px] relative max-w-full mq1575:flex-1"

@@ -4,12 +4,10 @@ export type GroupComponentType = {
   className?: string;
 };
 
-const GroupComponent: FunctionComponent<GroupComponentType> = ({
-  className = "",
-}) => {
+const GroupComponent: FunctionComponent<GroupComponentType> = () => {
   return (
     <div
-      className={`self-stretch rounded-11xl border-lightskyblue border-[4px] border-dashed box-border flex flex-col items-end justify-start pt-[95px] px-[145px] pb-0 gap-[110px] max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:gap-[27px] mq900:gap-[55px] mq900:pl-9 mq900:pt-10 mq900:pr-9 mq900:box-border mq1350:pl-[72px] mq1350:pt-[62px] mq1350:pr-[72px] mq1350:box-border ${className}`}
+      className={`self-stretch rounded-11xl border-lightskyblue border-[4px] border-dashed box-border flex flex-col items-end justify-start pt-[95px] px-[145px] pb-0 gap-[110px] max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:gap-[27px] mq900:gap-[55px] mq900:pl-9 mq900:pt-10 mq900:pr-9 mq900:box-border mq1350:pl-[72px] mq1350:pt-[62px] mq1350:pr-[72px] mq1350:box-border}`}
     >
       <div className="w-[1680px] h-[1000px] relative rounded-11xl border-lightskyblue border-[4px] border-dashed box-border hidden max-w-full" />
       <div className="self-stretch flex flex-row items-start justify-center py-0 pl-px pr-0 box-border max-w-full">

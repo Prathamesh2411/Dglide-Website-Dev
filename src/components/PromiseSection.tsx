@@ -4,12 +4,10 @@ export type PromiseSectionType = {
   className?: string;
 };
 
-const PromiseSection: FunctionComponent<PromiseSectionType> = ({
-  className = "",
-}) => {
+const PromiseSection: FunctionComponent<PromiseSectionType> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[70px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:pb-[29px] mq450:box-border mq825:pb-[45px] mq825:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[70px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:pb-[29px] mq450:box-border mq825:pb-[45px] mq825:box-border}`}
     >
       <div className="flex-1 bg-whitesmoke flex flex-col items-end justify-start p-[120px] box-border gap-[119px] max-w-full mq450:pt-[51px] mq450:pb-[51px] mq450:box-border mq1275:gap-[59px] mq1275:pl-[60px] mq1275:pr-[60px] mq1275:box-border mq825:gap-[30px] mq825:py-[78px] mq825:px-[30px] mq825:box-border">
         <div className="w-[1920px] h-[786px] relative bg-whitesmoke hidden max-w-full" />

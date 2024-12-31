@@ -15,7 +15,7 @@ const ContactInfo: FunctionComponent<ContactInfoType> = ({
 }) => {
   return (
     <div
-      className={`flex flex-col items-start justify-start py-[3.5px] px-0 text-left text-lg text-dodgerblue-300 font-poppins ${className}`}
+      className={`flex flex-col items-start justify-start py-[3.5px] px-0 text-left text-lg text-dodgerblue-300 font-poppins}`}
       data-variant={variant}
     >
       <div className="relative [text-decoration:underline] leading-[18px]">

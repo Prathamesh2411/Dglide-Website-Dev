@@ -6,7 +6,7 @@ export type NavBarType = {
   className?: string;
 };
 
-const NavBar: FunctionComponent<NavBarType> = ({ className = "" }) => {
+const NavBar: FunctionComponent<NavBarType> = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -34,7 +34,7 @@ const NavBar: FunctionComponent<NavBarType> = ({ className = "" }) => {
 
   return (
     <header
-      className={`self-stretch [backdrop-filter:blur(200px)] bg-gray-700 justify-start py-10 pl-[121px] pr-[120px] box-border gap-[23.8px] top-[0] z-[99] sticky max-w-full text-center text-xl text-gray-100 font-sf-pro mq900:pl-[30px] mq900:pr-[30px] mq900:box-border mq1275:pl-[60px] mq1275:pr-[60px] mq1275:box-border ${className}`}
+      className={`self-stretch [backdrop-filter:blur(200px)] bg-gray-700 justify-start py-10 pl-[121px] pr-[120px] box-border gap-[23.8px] top-[0] z-[99] sticky max-w-full text-center text-xl text-gray-100 font-sf-pro mq900:pl-[30px] mq900:pr-[30px] mq900:box-border mq1275:pl-[60px] mq1275:pr-[60px] mq1275:box-border}`}
     >
       <div className="flex flex-row items-start justify-start gap-[23.8px] max-w-full">
         <div>

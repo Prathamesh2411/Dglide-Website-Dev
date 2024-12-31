@@ -31,7 +31,7 @@ const Newsletter: FunctionComponent<NewsletterType> = ({
 
   return (
     <button
-      className={`cursor-pointer [border:none] py-[30px] px-[51px] bg-lavender flex-1 rounded-3xs flex flex-row items-start justify-start box-border gap-5 min-w-[161px] z-[1] ${className}`}
+      className={`cursor-pointer [border:none] py-[30px] px-[51px] bg-lavender flex-1 rounded-3xs flex flex-row items-start justify-start box-border gap-5 min-w-[161px] z-[1]}`}
       style={newsletterStyle}
     >
       <img

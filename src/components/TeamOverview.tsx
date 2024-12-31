@@ -5,12 +5,10 @@ export type TeamOverviewType = {
   className?: string;
 };
 
-const TeamOverview: FunctionComponent<TeamOverviewType> = ({
-  className = "",
-}) => {
+const TeamOverview: FunctionComponent<TeamOverviewType> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[120px] box-border max-w-full text-left text-45xl text-white font-sf-pro mq900:pb-[51px] mq900:box-border mq1350:pb-[78px] mq1350:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[120px] box-border max-w-full text-left text-45xl text-white font-sf-pro mq900:pb-[51px] mq900:box-border mq1350:pb-[78px] mq1350:box-border}`}
     >
       <div className="flex-1 [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-col items-start justify-start py-[120px] pl-[120px] pr-[119px] box-border gap-[100px] max-w-full mq900:gap-[25px] mq900:py-[51px] mq900:pl-[30px] mq900:pr-[29px] mq900:box-border mq1350:gap-[50px] mq1350:py-[78px] mq1350:pl-[60px] mq1350:pr-[59px] mq1350:box-border">
         <div className="w-[1920px] h-[1126px] relative [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] hidden max-w-full" />

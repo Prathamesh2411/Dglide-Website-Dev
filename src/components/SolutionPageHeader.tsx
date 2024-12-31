@@ -4,12 +4,10 @@ export type FrameComponent12Type = {
   className?: string;
 };
 
-const FrameComponent12: FunctionComponent<FrameComponent12Type> = ({
-  className = "",
-}) => {
+const FrameComponent12: FunctionComponent<FrameComponent12Type> = () => {
   return (
     <section
-      className={`w-[1886px]  items-start justify-end py-0 px-20 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro ${className}`}
+      className={`w-[1886px]  items-start justify-end py-0 px-20 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro}`}
     >
       <div className="flex flex-row items-start justify-between align-top max-w-full gap-5">
         <div className="w-[866px] flex flex-col items-start justify-end pt-0 px-0 pb-[22px] box-border max-w-full">

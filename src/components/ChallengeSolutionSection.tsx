@@ -46,7 +46,7 @@ const ChallengeSolutionSection: FunctionComponent<
 
   return (
     <div
-      className={`flex-1 flex flex-col items-start justify-start gap-20 text-left text-45xl text-white font-sf-pro mq450:gap-5 mq900:min-w-full mq1275:gap-10 ${className}`}
+      className={`flex-1 flex flex-col items-start justify-start gap-20 text-left text-45xl text-white font-sf-pro mq450:gap-5 mq900:min-w-full mq1275:gap-10}`}
     >
       <h1
         className="m-0 w-[724px] h-[117px] relative text-inherit tracking-[-0.01em] leading-[72px] font-semibold font-[inherit] inline-block shrink-0 max-w-full z-[1] mq450:text-19xl mq450:leading-[43px] mq900:text-32xl mq900:leading-[58px]"

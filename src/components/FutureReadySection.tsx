@@ -4,12 +4,10 @@ export type FutureReadySectionType = {
   className?: string;
 };
 
-const FutureReadySection: FunctionComponent<FutureReadySectionType> = ({
-  className = "",
-}) => {
+const FutureReadySection: FunctionComponent<FutureReadySectionType> = () => {
   return (
     <div
-      className={`self-stretch bg-white relative flex flex-col items-start justify-start pt-[200px] pb-0 px-[110px] box-border gap-[78px] max-w-full z-[3] text-left text-45xl text-gray-100 font-sf-pro mq900:gap-[19px] mq900:px-[27px] mq900:pt-[84px] mq900:box-border mq1350:gap-[39px] mq1350:px-[55px] mq1350:pt-[130px] mq1350:box-border ${className}`}
+      className={`self-stretch bg-white relative flex flex-col items-start justify-start pt-[200px] pb-0 px-[110px] box-border gap-[78px] max-w-full z-[3] text-left text-45xl text-gray-100 font-sf-pro mq900:gap-[19px] mq900:px-[27px] mq900:pt-[84px] mq900:box-border mq1350:gap-[39px] mq1350:px-[55px] mq1350:pt-[130px] mq1350:box-border}`}
     >
       <img
         src="/future-ready-solutions.svg"

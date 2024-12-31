@@ -4,12 +4,10 @@ export type AboutUsHeroType = {
   className?: string;
 };
 
-const AboutUsHero: FunctionComponent<AboutUsHeroType> = ({
-  className = "",
-}) => {
+const AboutUsHero: FunctionComponent<AboutUsHeroType> = () => {
   return (
     <section
-      className={`w-full flex flex-row items-start justify-end pt-0 px-20 pb-[120px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:pb-[51px] mq900:pb-[78px] mq1350:pl-10 mq1350:pr-10 mq1350:box-border ${className}`}
+      className={`w-full flex flex-row items-start justify-end pt-0 px-20 pb-[120px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:pb-[51px] mq900:pb-[78px] mq1350:pl-10 mq1350:pr-10 mq1350:box-border}`}
     >
       <div className="flex-1 flex flex-col items-start justify-start gap-10 max-w-full mq900:gap-5">
         <div className="flex flex-row items-start justify-start pt-0 pb-5 px-2.5 box-border max-w-full">

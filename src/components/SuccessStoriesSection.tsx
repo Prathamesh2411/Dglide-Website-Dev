@@ -4,12 +4,12 @@ export type SuccessStoriesSectionType = {
   className?: string;
 };
 
-const SuccessStoriesSection: FunctionComponent<SuccessStoriesSectionType> = ({
-  className = "",
-}) => {
+const SuccessStoriesSection: FunctionComponent<
+  SuccessStoriesSectionType
+> = () => {
   return (
     <div
-      className={`w-[1876px] flex flex-row items-start justify-end py-0 px-20 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq1275:pl-10 mq1275:pr-10 mq1275:box-border ${className}`}
+      className={`w-[1876px] flex flex-row items-start justify-end py-0 px-20 box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq1275:pl-10 mq1275:pr-10 mq1275:box-border}`}
     >
       <div className="flex-1 flex flex-row items-start justify-between max-w-full gap-5 mq1600:flex-wrap">
         <div className="w-[569px] flex flex-col items-start justify-start gap-20 max-w-full mq450:gap-5 mq900:gap-10 mq900:min-w-full mq1600:flex-1">

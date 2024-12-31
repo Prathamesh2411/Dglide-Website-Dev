@@ -33,7 +33,7 @@ const ExpertsGrid: FunctionComponent<ExpertsGridType> = ({
 
   return (
     <div
-      className={`flex-1 rounded-xl bg-white flex flex-col items-start justify-start pt-20 px-[60px] pb-[100px] box-border gap-20 min-w-[410px] max-w-full z-[1] text-center text-7xl text-gray-100 font-sf-pro mq450:gap-5 mq900:gap-10 mq900:pt-[52px] mq900:px-[30px] mq900:pb-[65px] mq900:box-border mq900:min-w-full ${className}`}
+      className={`flex-1 rounded-xl bg-white flex flex-col items-start justify-start pt-20 px-[60px] pb-[100px] box-border gap-20 min-w-[410px] max-w-full z-[1] text-center text-7xl text-gray-100 font-sf-pro mq450:gap-5 mq900:gap-10 mq900:pt-[52px] mq900:px-[30px] mq900:pb-[65px] mq900:box-border mq900:min-w-full}`}
       style={expertsGridStyle}
     >
       <div className="w-[547px] h-[741px] relative rounded-xl bg-white hidden max-w-full" />

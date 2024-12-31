@@ -4,12 +4,10 @@ export type WhyWeDoItSectionType = {
   className?: string;
 };
 
-const WhyWeDoItSection: FunctionComponent<WhyWeDoItSectionType> = ({
-  className = "",
-}) => {
+const WhyWeDoItSection: FunctionComponent<WhyWeDoItSectionType> = () => {
   return (
     <section
-      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[120px] box-border max-w-full text-left text-45xl text-white font-sf-pro mq900:pb-[51px] mq900:box-border mq1350:pb-[78px] mq1350:box-border ${className}`}
+      className={`self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[120px] box-border max-w-full text-left text-45xl text-white font-sf-pro mq900:pb-[51px] mq900:box-border mq1350:pb-[78px] mq1350:box-border}`}
     >
       <div className="flex-1 [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] flex flex-col items-start justify-start p-[120px] box-border gap-[120px] max-w-full mq900:gap-[30px] mq900:py-[51px] mq900:px-[30px] mq900:box-border mq1350:gap-[60px] mq1350:py-[78px] mq1350:px-[60px] mq1350:box-border">
         <div className="w-[1920px] h-[1005px] relative [background:linear-gradient(247.46deg,_#5d9eff,_#3780ef)] hidden max-w-full" />

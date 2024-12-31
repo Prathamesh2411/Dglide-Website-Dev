@@ -5,10 +5,10 @@ export type FeaturesType = {
   className?: string;
 };
 
-const Features: FunctionComponent<FeaturesType> = ({ className = "" }) => {
+const Features: FunctionComponent<FeaturesType> = () => {
   return (
     <div
-      className={`w-[1645px] flex flex-row items-start justify-start py-0 px-[33px] box-border max-w-full text-center text-11xl text-gray-100 font-sf-pro ${className}`}
+      className={`w-[1645px] flex flex-row items-start justify-start py-0 px-[33px] box-border max-w-full text-center text-11xl text-gray-100 font-sf-pro}`}
     >
       <div className="flex-1 flex flex-row items-end justify-center flex-wrap content-end gap-[15px] max-w-full">
         <div className="w-[342px] flex flex-col items-start justify-start gap-[140px] max-w-full mq450:gap-[70px]">

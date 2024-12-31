@@ -18,14 +18,14 @@ const carouselData = [
   // Add more items as needed
 ];
 
-const CustomizeToolsSection: FunctionComponent<CustomizeToolsSectionType> = ({
-  className = "",
-}) => {
+const CustomizeToolsSection: FunctionComponent<
+  CustomizeToolsSectionType
+> = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
     <div
-      className={`self-stretch bg-aliceblue flex flex-row items-start justify-between pt-[89px] pb-0 pl-[90px] pr-[110px] box-border max-w-full gap-[60px] z-[4] mt-[-5.3px] text-left text-45xl text-gray-100 font-sf-pro mq900:pl-[22px] mq900:pr-[27px] mq900:box-border mq1350:pl-[45px] mq1350:pr-[55px] mq1350:box-border mq1750:flex-wrap ${className}`}
+      className={`self-stretch bg-aliceblue flex flex-row items-start justify-between pt-[89px] pb-0 pl-[90px] pr-[110px] box-border max-w-full gap-[60px] z-[4] mt-[-5.3px] text-left text-45xl text-gray-100 font-sf-pro mq900:pl-[22px] mq900:pr-[27px] mq900:box-border mq1350:pl-[45px] mq1350:pr-[55px] mq1350:box-border mq1750:flex-wrap}`}
     >
       <div className="h-[600px] w-[1920px] relative bg-aliceblue hidden max-w-full" />
       <div className="flex flex-row items-end justify-start gap-[128.7px] max-w-full mq900:gap-8 mq900:flex-wrap mq1350:gap-16 mq1350:min-w-full mq1750:flex-1">
