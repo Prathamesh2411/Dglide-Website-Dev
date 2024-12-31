@@ -5,7 +5,6 @@ import FrameComponent from "../components/FrameComponent";
 import Newsletter from "../components/Newsletter";
 import EmailField from "../components/EmailField";
 import Component2 from "../components/Component2";
-import GroupComponent1 from "../components/GroupComponent1";
 import Footer from "@/components/Home/Footer";
 import { ContactSection } from "@/components/Home/ContactSection";
 import NavBar from "@/components/Home/NavBar";

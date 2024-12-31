@@ -1,5 +1,4 @@
 import { FunctionComponent } from "react";
-import FrameComponent13 from "../components/FrameComponent13";
 import FrameComponent14 from "../components/FrameComponent14";
 import NeedTools from "../components/NeedTools";
 import FrameComponent15 from "../components/FrameComponent15";

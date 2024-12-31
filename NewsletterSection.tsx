@@ -17,7 +17,7 @@ export function NewsletterSection({ methods }) {
               />
             </FormControl>
           </FormItem>
-          <Buttonn className="w-full md:w-auto">Subscribe</Button>
+          <Button className="w-full md:w-auto">Subscribe</Button>
         </Form>
       </FormProvider>
     </div>
