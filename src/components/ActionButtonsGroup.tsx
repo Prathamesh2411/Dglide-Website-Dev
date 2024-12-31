@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
 
-export type FrameComponentType = {
+export type ActionButtonsGroupType = {
   className?: string;
 };
 
-const FrameComponent: FunctionComponent<FrameComponentType> = ({
+const ActionButtonsGroup: FunctionComponent<ActionButtonsGroupType> = ({
   className = "",
 }) => {
   return (
@@ -27,4 +27,4 @@ const FrameComponent: FunctionComponent<FrameComponentType> = ({
   );
 };
 
-export default FrameComponent;
+export default ActionButtonsGroup;

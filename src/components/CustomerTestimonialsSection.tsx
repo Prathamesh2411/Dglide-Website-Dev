@@ -1,12 +1,12 @@
 import { FunctionComponent } from "react";
 
-export type LoveStoryContentType = {
+export type CustomerTestimonialsSectionType = {
   className?: string;
 };
 
-const LoveStoryContent: FunctionComponent<LoveStoryContentType> = ({
-  className = "",
-}) => {
+const CustomerTestimonialsSection: FunctionComponent<
+  CustomerTestimonialsSectionType
+> = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch bg-whitesmoke flex flex-col items-end justify-start pt-[120px] px-[120px] pb-[90px] box-border gap-[89px] max-w-full z-[4] text-center text-45xl text-gray-100 font-sf-pro mq900:gap-[22px] mq900:pt-[51px] mq900:px-[30px] mq900:pb-[38px] mq900:box-border mq1275:gap-11 mq1275:pt-[78px] mq1275:px-[60px] mq1275:pb-[58px] mq1275:box-border ${className}`}
@@ -76,4 +76,4 @@ We evolve with your needs, adding features and capabilities to keep`}</span>
   );
 };
 
-export default LoveStoryContent;
+export default CustomerTestimonialsSection;

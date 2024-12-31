@@ -1,13 +1,13 @@
 import { FunctionComponent } from "react";
-import FrameComponent from "./FrameComponent";
+import ActionButtonsGroup from "./ActionButtonsGroup";
 
-export type FrameComponent11Type = {
+export type DiscoverDifferenceSectionType = {
   className?: string;
 };
 
-const FrameComponent11: FunctionComponent<FrameComponent11Type> = ({
-  className = "",
-}) => {
+const DiscoverDifferenceSection: FunctionComponent<
+  DiscoverDifferenceSectionType
+> = ({ className = "" }) => {
   return (
     <section
       className={`self-stretch flex flex-row items-start justify-center pt-0 px-5 pb-[120px] box-border max-w-full text-left text-45xl text-gray-100 font-sf-pro mq450:pb-[51px] mq450:box-border mq1350:pb-[78px] mq1350:box-border ${className}`}
@@ -42,11 +42,11 @@ const FrameComponent11: FunctionComponent<FrameComponent11Type> = ({
               </div>
             </div>
           </div>
-          <FrameComponent />
+          <ActionButtonsGroup />
         </div>
       </div>
     </section>
   );
 };
 
-export default FrameComponent11;
+export default DiscoverDifferenceSection;

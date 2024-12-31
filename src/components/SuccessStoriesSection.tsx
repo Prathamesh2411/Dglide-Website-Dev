@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
 
-export type FrameComponent19Type = {
+export type SuccessStoriesSectionType = {
   className?: string;
 };
 
-const FrameComponent19: FunctionComponent<FrameComponent19Type> = ({
+const SuccessStoriesSection: FunctionComponent<SuccessStoriesSectionType> = ({
   className = "",
 }) => {
   return (
@@ -45,4 +45,4 @@ const FrameComponent19: FunctionComponent<FrameComponent19Type> = ({
   );
 };
 
-export default FrameComponent19;
+export default SuccessStoriesSection;

@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
-import EmailField from "../EmailField";
-import Component2 from "../Component2";
+import EmailField from "./EmailField";
+import ContactInfo from "./ContactInfo";
 
 export type FooterType = {
   className?: string;
@@ -37,8 +37,8 @@ const Footer: FunctionComponent<FooterType> = ({ className = "" }) => {
             </div>
           </div>
           <div className="flex flex-row items-start justify-start gap-[41px] mq450:gap-5 mq900:flex-wrap">
-            <Component2 variant={1} text="talktous@dglide.com" />
-            <Component2 variant={1} text="talktous@dglide.com" />
+            <ContactInfo variant={1} text="talktous@dglide.com" />
+            <ContactInfo variant={1} text="talktous@dglide.com" />
           </div>
         </div>
       </div>

@@ -1,16 +1,14 @@
 import { FunctionComponent, useCallback } from "react";
-import AboutUsHero from "../components/Home/AboutUsHero";
-import FrameComponent8 from "../components/FrameComponent8";
-import FrameComponent9 from "../components/FrameComponent9";
-import FrameComponent10 from "../components/FrameComponent10";
-import FrameComponent11 from "../components/FrameComponent11";
-import Newsletter from "../components/Newsletter";
-import SubscriptionAgreement from "../components/SubscriptionAgreement";
-import Component2 from "../components/Component2";
+import AboutUsHero from "../components/AboutUsHero";
+import TeamOverview from "../components/TeamOverview";
+import OurJobSection from "../components/OurJobSection";
+import WhyWeDoItSection from "../components/WhyWeDoItSection";
+
 import { useNavigate } from "react-router-dom";
-import NavBar from "@/components/Home/NavBar";
-import Footer from "@/components/Home/Footer";
-import { ContactSection } from "@/components/Home/ContactSection";
+import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
+import { ContactSection } from "@/components/ContactSection";
+import DiscoverDifferenceSection from "@/components/DiscoverDifferenceSection";
 
 const AboutUs: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -23,10 +21,10 @@ const AboutUs: FunctionComponent = () => {
     <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-end justify-start leading-[normal] tracking-[normal]">
       <NavBar />
       <AboutUsHero />
-      <FrameComponent8 />
-      <FrameComponent9 />
-      <FrameComponent10 />
-      <FrameComponent11 />
+      <TeamOverview />
+      <OurJobSection />
+      <WhyWeDoItSection />
+      <DiscoverDifferenceSection />
       <ContactSection />
       <Footer />
     </div>

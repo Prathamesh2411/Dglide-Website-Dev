@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
 
-export type FrameComponent9Type = {
+export type OurJobSectionType = {
   className?: string;
 };
 
-const FrameComponent9: FunctionComponent<FrameComponent9Type> = ({
+const OurJobSection: FunctionComponent<OurJobSectionType> = ({
   className = "",
 }) => {
   return (
@@ -56,4 +56,4 @@ const FrameComponent9: FunctionComponent<FrameComponent9Type> = ({
   );
 };
 
-export default FrameComponent9;
+export default OurJobSection;

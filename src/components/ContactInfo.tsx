@@ -1,6 +1,6 @@
 import { FunctionComponent } from "react";
 
-export type Component2Type = {
+export type ContactInfoType = {
   className?: string;
   text?: string;
 
@@ -8,7 +8,7 @@ export type Component2Type = {
   variant?: 1;
 };
 
-const Component2: FunctionComponent<Component2Type> = ({
+const ContactInfo: FunctionComponent<ContactInfoType> = ({
   className = "",
   variant = 1,
   text = "talktous@dglide.com",
@@ -25,4 +25,4 @@ const Component2: FunctionComponent<Component2Type> = ({
   );
 };
 
-export default Component2;
+export default ContactInfo;

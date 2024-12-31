@@ -1,5 +1,5 @@
-import Newsletter from "../Newsletter";
-import SubscriptionAgreement from "../SubscriptionAgreement";
+import Newsletter from "./Newsletter";
+import SubscriptionAgreement from "./SubscriptionAgreement";
 
 export function ContactSection() {
   return (

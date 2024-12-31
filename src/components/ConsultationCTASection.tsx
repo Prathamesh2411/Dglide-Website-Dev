@@ -1,10 +1,10 @@
 import { FunctionComponent } from "react";
 
-export type GroupComponent2Type = {
+export type ConsultationCTASectionType = {
   className?: string;
 };
 
-const GroupComponent2: FunctionComponent<GroupComponent2Type> = ({
+const ConsultationCTASection: FunctionComponent<ConsultationCTASectionType> = ({
   className = "",
 }) => {
   return (
@@ -48,4 +48,4 @@ const GroupComponent2: FunctionComponent<GroupComponent2Type> = ({
   );
 };
 
-export default GroupComponent2;
+export default ConsultationCTASection;

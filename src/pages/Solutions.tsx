@@ -1,13 +1,11 @@
 import { FunctionComponent } from "react";
-import SolutionPageHeader from "../components/Home/SolutionPageHeader";
-import FeatureContent from "../components/FeatureContent";
-import FrameComponent from "../components/FrameComponent";
-import Newsletter from "../components/Newsletter";
-import EmailField from "../components/EmailField";
-import Component2 from "../components/Component2";
-import Footer from "@/components/Home/Footer";
-import { ContactSection } from "@/components/Home/ContactSection";
-import NavBar from "@/components/Home/NavBar";
+import SolutionPageHeader from "@/components/SolutionPageHeader";
+import FeatureContent from "@/components/FeatureContent";
+import ActionButtonsGroup from "@/components/ActionButtonsGroup";
+
+import Footer from "@/components/Footer";
+import { ContactSection } from "@/components/ContactSection";
+import NavBar from "@/components/NavBar";
 
 const Solutions: FunctionComponent = () => {
   return (
@@ -122,7 +120,7 @@ const Solutions: FunctionComponent = () => {
                   </h2>
                 </div>
               </div>
-              <FrameComponent />
+              <ActionButtonsGroup />
             </div>
           </div>
 

@@ -1,5 +1,5 @@
-import Features from "../Features";
-import GroupComponent from "../GroupComponent";
+import Features from "./Features";
+import GroupComponent from "./PricingPlanHighlights";
 
 export function BenefitsSection() {
   return (

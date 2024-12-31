@@ -1,20 +1,19 @@
 import { FunctionComponent } from "react";
-import FrameComponent14 from "../components/FrameComponent14";
-import NeedTools from "../components/NeedTools";
-import FrameComponent15 from "../components/FrameComponent15";
-import FrameComponent16 from "../components/FrameComponent16";
-import FooterForm from "../components/FooterForm";
-import Component2 from "../components/Component2";
-import NavBar from "@/components/Home/NavBar";
+import NeedTools from "@/components/NeedTools";
+import PricingPlansSection from "@/components/PricingPlansSection";
+import PromiseSection from "@/components/PromiseSection";
+import FooterForm from "@/components/FooterFormPricing";
+import ContactInfo from "@/components/ContactInfo";
+import NavBar from "@/components/NavBar";
 
 const Pricing: FunctionComponent = () => {
   return (
     <div className="w-full relative [background:linear-gradient(#fff,_#fff),_#fff] overflow-y-auto flex flex-col items-start justify-start gap-[50px] leading-[normal] tracking-[normal] mq825:gap-[25px]">
       <NavBar />
-      <FrameComponent14 />
+      <PricingPlansSection />
       <NeedTools />
-      <FrameComponent15 />
-      <FrameComponent16 />
+      <PricingPlansSection />
+      <PromiseSection />
       <FooterForm />
       <section className="flex flex-row items-start justify-start pt-0 pb-[150px] pl-[585px] pr-[584px] text-left text-45xl text-gray-100 font-sf-pro mq1275:pl-[292px] mq1275:pr-[292px] mq1275:box-border mq825:pl-[146px] mq825:pr-[146px] mq825:box-border">
         <h1 className="m-0 h-[45px] relative text-inherit tracking-[-0.01em] leading-[45px] font-semibold font-[inherit] inline-block whitespace-nowrap mq450:text-19xl mq450:leading-[43px] mq825:text-32xl mq825:leading-[58px]">
@@ -73,8 +72,8 @@ const Pricing: FunctionComponent = () => {
               <div className="relative leading-[30px] z-[1]">Careers:</div>
             </div>
             <div className="flex flex-row items-start justify-start gap-[41px] mq450:gap-5 mq825:flex-wrap">
-              <Component2 variant={1} text="talktous@dglide.com" />
-              <Component2 variant={1} text="talktous@dglide.com" />
+              <ContactInfo variant={1} text="talktous@dglide.com" />
+              <ContactInfo variant={1} text="talktous@dglide.com" />
             </div>
           </div>
         </div>

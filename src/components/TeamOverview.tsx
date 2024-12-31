@@ -1,11 +1,11 @@
 import { FunctionComponent } from "react";
-import ExpertsGrid from "./ExpertsGrid";
+import ExpertsGrid from "./ExpertHighlightCard";
 
-export type FrameComponent8Type = {
+export type TeamOverviewType = {
   className?: string;
 };
 
-const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
+const TeamOverview: FunctionComponent<TeamOverviewType> = ({
   className = "",
 }) => {
   return (
@@ -58,4 +58,4 @@ const FrameComponent8: FunctionComponent<FrameComponent8Type> = ({
   );
 };
 
-export default FrameComponent8;
+export default TeamOverview;
