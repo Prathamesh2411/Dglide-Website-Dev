@@ -132,3 +132,8 @@ body {
     @apply bg-gradient-to-r from-[#5D9EFF] to-[#3780EF];
   }
 }
+.active-class {
+  font-weight: bold;
+  color: 216.9 84.3% 58.8%; /* Or any highlight color */
+  text-decoration: underline;
+}
